@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://lindomarcosta.adv.br/sitemap.php
+Sitemap: https://lindomarcosta.adv.br/sitemap.xml
