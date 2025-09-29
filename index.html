@@ -71,22 +71,21 @@
 
 <!-- Sobre (Conheça o Profissional) -->
 <section class="bg-[#EBEBEB] py-20 px-5 md:px-[10%]">
-    <div class="flex flex-wrap gap-10 items-stretch">
+    <div class="flex flex-wrap gap-10">
         <!-- Texto -->
-        <div class="flex-1 min-w-[300px] flex flex-col gap-6 text-[#131E3D]">
+        <div class="flex-1 min-w-[300px] flex flex-col gap-6 text-[#131E3D]" id="texto-profissional">
             <h2 class="text-4xl mb-5 whitespace-normal overflow-wrap-normal">Conheça o Profissional</h2>
             <p class="text-justify">Sou Lindomar Costa, graduado em Ciências Jurídicas e Sociais (Direito) e tecnólogo em Serviços Jurídicos, Notariais e de Registro, ambos pela ULBRA – Universidade Luterana do Brasil.</p>
             <p class="text-justify">Minha formação é complementada por cursos e capacitações nas áreas de Direito Civil e Digital, Comunicação Jurídica e Desjudicialização de Conflitos, sempre buscando atualização constante para oferecer o melhor suporte aos meus clientes.</p>
             <p class="text-justify">Acredito que muitas questões podem ser resolvidas com a orientação certa. Uma simples consulta jurídica já é capaz de esclarecer dúvidas e evitar dores de cabeça no futuro, trazendo mais segurança e tranquilidade para quem busca agir de forma correta.</p>
         </div>
         <!-- Imagem -->
-        <div class="flex-1 min-w-[300px] flex">
-            <img src="https://i.ibb.co/7NzR6vsV/f75090d27192ee6328741cff79fd065e.jpg" alt="Imagem do escritório de Lindomar Costa" class="w-full h-full object-cover rounded-lg">
+        <div class="flex-1 min-w-[300px] flex items-start">
+            <img src="https://i.ibb.co/7NzR6vsV/f75090d27192ee6328741cff79fd065e.jpg" alt="Imagem do escritório de Lindomar Costa" class="w-full object-contain max-h-full rounded-lg" style="height: auto; max-height: 100%;">
         </div>
     </div>
 </section>
-
-
+    
     <!-- Áreas de Atuação -->
     <section class="bg-gray-100 py-20 px-5 md:px-[10%]">
         <h2 class="text-4xl text-[#131E3D] mb-6 break-title">Áreas de Atuação</h2>
@@ -172,43 +171,44 @@
         </div>
     </section>
 
-    <!-- Rodapé -->
-    <footer class="bg-[#131E3D] text-[#EBEBEB] py-20 px-5 md:px-[10%]">
-        <div class="flex flex-wrap justify-center md:justify-between gap-10 text-center md:text-left">
-            <div class="flex-1 min-w-[250px] flex flex-col items-center md:items-start gap-3">
-                <div class="icon-title justify-center md:justify-start">
-                    <i class="fab fa-whatsapp"></i>
-                    <h3 class="text-xl mb-0 break-title">Entre em contato</h3>
-                </div>
-                <p><a href="https://wa.me/5551998849390" target="_blank" class="hover:underline">+55 (51) 99884-9390</a></p>
-                <p><i class="fas fa-envelope mr-2"></i> <a href="mailto:contato@lindomarcosta.adv.br" class="hover:underline">contato@lindomarcosta.adv.br</a></p>
+ 
+<!-- Rodapé -->
+<footer class="bg-[#131E3D] text-[#EBEBEB] py-10 px-5 md:px-[10%]">
+    <div class="flex flex-wrap justify-center md:justify-between gap-6 text-center md:text-left">
+        <div class="flex-1 min-w-[250px] flex flex-col items-center md:items-start gap-2">
+            <div class="icon-title justify-center md:justify-start">
+                <i class="fab fa-whatsapp"></i>
+                <h3 class="text-xl mb-0 whitespace-normal overflow-wrap-normal">Entre em contato</h3>
             </div>
+            <p><a href="https://wa.me/5551998849390" target="_blank" class="hover:underline">+55 (51) 99884-9390</a></p>
+            <p><i class="fas fa-envelope mr-2"></i> <a href="mailto:contato@lindomarcosta.adv.br" class="hover:underline">contato@lindomarcosta.adv.br</a></p>
+        </div>
 
-            <div class="flex-1 min-w-[250px] flex flex-col items-center md:items-start gap-3">
-                <div class="icon-title justify-center md:justify-start">
-                    <i class="fas fa-clock"></i>
-                    <h3 class="text-xl mb-0 break-title">Horário comercial</h3>
-                </div>
-                <p class="text-justify">Segunda a Sexta-feira: 10:00 às 14:00</p>
-                <p class="text-justify">Fechado aos sábados e domingos</p>
+        <div class="flex-1 min-w-[250px] flex flex-col items-center md:items-start gap-2">
+            <div class="icon-title justify-center md:justify-start">
+                <i class="fas fa-clock"></i>
+                <h3 class="text-xl mb-0 whitespace-normal overflow-wrap-normal">Horário comercial</h3>
             </div>
+            <p class="text-justify">Segunda a Sexta-feira: 10:00 às 14:00</p>
+            <p class="text-justify">Fechado aos sábados e domingos</p>
+        </div>
 
-            <div class="flex-1 min-w-[250px] flex flex-col items-center md:items-start gap-3">
-                <div class="icon-title justify-center md:justify-start">
-                    <i class="fas fa-share-alt"></i>
-                    <h3 class="text-xl mb-0 break-title">Siga-me on-line</h3>
-                </div>
-                <div class="flex space-x-5 text-2xl justify-center md:justify-start">
-                    <a href="https://www.linkedin.com/in/lindomarcosta" target="_blank" class="hover:text-gray-400"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://www.instagram.com/lindomarcosta.adv.br" target="_blank" class="hover:text-gray-400"><i class="fab fa-instagram"></i></a>
-                </div>
+        <div class="flex-1 min-w-[250px] flex flex-col items-center md:items-start gap-2">
+            <div class="icon-title justify-center md:justify-start">
+                <i class="fas fa-share-alt"></i>
+                <h3 class="text-xl mb-0 whitespace-normal overflow-wrap-normal">Siga-me on-line</h3>
+            </div>
+            <div class="flex space-x-5 text-2xl justify-center md:justify-start">
+                <a href="https://www.linkedin.com/in/lindomarcosta" target="_blank" class="hover:text-gray-400"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/lindomarcosta.adv.br" target="_blank" class="hover:text-gray-400"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
-    </footer>
-
-    <div class="bg-[#131E3D] text-center py-5 text-[#EBEBEB] text-base">
-        <p>&copy; 2025 Lindomar Costa Advocacia. Todos os direitos reservados.</p>
     </div>
+</footer>
+
+<div class="bg-[#131E3D] text-center py-2.5 text-[#EBEBEB] text-base">
+    <p>&copy; 2025 Lindomar Costa Advocacia. Todos os direitos reservados.</p>
+</div>
 
 </body>
 </html>
