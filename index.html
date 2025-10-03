@@ -6,6 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lindomar Costa Advocacia</title>
 
+   <!-- Proteção com senha -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      let senha = "76390";
+      let tentativa = prompt("Digite a senha para acessar o site:");
+
+      if (tentativa !== senha) {
+        document.body.innerHTML = "<h1 style='text-align:center; margin-top:50px; font-family:sans-serif;'>Acesso Negado</h1>";
+      }
+    });
+  </script>
+  
   <!-- SEO -->
   <meta name="description"
     content="Lindomar Costa Advocacia: consultoria e assessoria jurídica online em Direito Civil, Empresarial, Consumidor, Saúde e LGPD. Atendimento em todo o Brasil.">
