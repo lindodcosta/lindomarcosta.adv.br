@@ -8,14 +8,13 @@
 
    <!-- Proteção com senha -->
   <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      let senha = "76390";
-      let tentativa = prompt("Digite a senha para acessar o site:");
+    const senhaCorreta = "76390";
+    const tentativa = prompt("Digite a senha para acessar o site:");
 
-      if (tentativa !== senha) {
-        document.body.innerHTML = "<h1 style='text-align:center; margin-top:50px; font-family:sans-serif;'>Acesso Negado</h1>";
-      }
-    });
+    if (tentativa !== senhaCorreta) {
+      document.write("<h1 style='text-align:center; margin-top:50px; font-family:sans-serif; color:red;'>Acesso Negado</h1>");
+      throw new Error("Acesso negado");
+    }
   </script>
   
   <!-- SEO -->
