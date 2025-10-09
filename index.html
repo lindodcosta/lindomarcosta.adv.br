@@ -5,13 +5,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lindomar Costa Advocacia</title>
-    <script> <!-- Proteção com senha -->
-        const senhaCorreta = "76390";
-        const tentativa = prompt("Digite a senha para acessar o site:");
-        if (tentativa !== senhaCorreta) {
-            document.write("<h1 style='text-align:center; margin-top:50px; font-family:sans-serif; color:red;'>Acesso Negado</h1>");
-            throw new Error("Acesso negado");
-        }
+    <!-- Nome do site para o Google -->
+<meta property="og:site_name" content="Lindomar Costa Advocacia">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Lindomar Costa Advocacia",
+  "url": "https://www.lindomarcosta.adv.br"
+}
+</script>
+
     </script> <!-- SEO -->
     <meta name="description" content="Lindomar Costa Advocacia: consultoria e assessoria jurídica online em Direito Civil, Empresarial, Imobiliario, Consumidor, Saúde, Digital e LGPD. Atendimento em todo o Brasil.">
     <meta name="robots" content="index, follow">
